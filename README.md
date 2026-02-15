@@ -17,5 +17,5 @@ Cestols Client è progettato per offrire un'esperienza di gioco fluida con un'in
 Se vuoi compilare il client partendo dai sorgenti:
 
 1. **Clona la repository:**
-   ```bash
+   
    git clone [https://github.com/SimoneForloni/cestols-client.git](https://github.com/tuo-username/cestols-client.git)
