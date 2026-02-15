@@ -1,12 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.legacyfabric.example.mixin",
+  "package": "net.cestols.client.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "RenderMixin",
+    "InputMixin"
   ],
   "injectors": {
     "defaultRequire": 1

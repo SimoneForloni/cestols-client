@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cestolsclient",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Cestols Client",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Cestols"
   ],
   "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+    "homepage": "https://github.com/SimoneForloni",
+    "sources": "https://github.com/SimoneForloni/cestols-client"
   },
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cestolsclient/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.legacyfabric.example.ExampleMod"
+    "client": [
+      "net.cestols.client.ClientInitializer"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "cestolsclient.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.0",
